@@ -1,1 +1,60 @@
-theme: jekyll-theme-slate
+# Site settings
+title: ESyz Solutions
+email: meqrknpq
+url: https://esyzsolutions.github.io/esyzsolutions
+description: "ESyz Solutions"
+keywords: "MobileApps, Cloud Solutions, Machine Learning, Distributed Computing"
+skills: "iOS/Android Mobility, AWS/Azure/Google Cloud, Distributed Computing & Machine Learning Solutions"
+meta_author: Niket Patel
+
+# Google webmaster tools
+google_verify: 1qSnBAZlOXbkG0zHvzMVgAYyKX8
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify: BECDADB92837D514EDDBB6CECB4758EB
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+# disqus_shortname: myshortname
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 113B6C #18bc9c #80B3FF
+  primary-rgb: "24,288,156" #"128,179,255"
+  secondary: 113B6C #2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+
+# Footer settings
+footer:
+  copyright: ESyz Solutions
+  location: Get in touch
+  social: Around the Web
+  industries: Industries
+  hashtag: Technologies
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: facebook
+    url: https://www.facebook.com/esyzsolutions
+  - title: github
+    url: https://github.com/esyzdotcom  
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Chicago, USA
+
+industries: 'Manufacturing & Engineering Services<br>Pharmaceutical & Healthcare
+<br>Energy & Utilities<br>Logistics & Retail'
+
+hashtags: '#aws #azure #gcloud #ios #android #switft #kotlin #mobile #ML #flink #spring #nodejs #python #tensorflow #serverless #elasticbeanstalk #kubernetes #okta #service-mesh'
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
