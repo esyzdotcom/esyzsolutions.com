@@ -25,10 +25,10 @@ contact: static
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 113B6C #18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 113B6C #2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  primary: 113B6C
+  primary-rgb: "24,288,156"
+  secondary: 113B6C
+  secondary-dark: 233140
 
 # Footer settings
 footer:
@@ -58,3 +58,10 @@ hashtags: '#aws #azure #gcloud #ios #android #switft #kotlin #mobile #ML #flink 
 markdown: kramdown
 permalink: pretty
 
+#for posts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: ""
